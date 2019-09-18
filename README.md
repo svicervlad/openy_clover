@@ -41,3 +41,21 @@ https://yarnpkg.com/lang/en/docs/install/#windows-stable
 ##4. Start watching all assets (for development)
 
 `./node_modules/grunt/bin/grunt watch`
+
+# Install with composer:
+
+add to composer.json your openy project in section "repositories":
+```json
+{
+    "type": "package",
+    "package": {
+        "name": "svicervlad/openy_clover",
+        "version": "2.6.10",
+        "type": "drupal-theme",
+        "dist": {
+            "url": "https://github.com/svicervlad/openy_clover/archive/composer_support.zip",
+            "type": "zip"
+        }
+    }
+ },
+```

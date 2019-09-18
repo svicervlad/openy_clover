@@ -1,0 +1,12 @@
+{
+  "name": "svicervlad/openy_clover",
+  "description": "Openy clover theme for test install in https://github.com/ymcatwincities/openy.",
+  "type": "drupal-theme",
+  "license": "GPL v3.0",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require":{
+    "drupal/core": "^8.7",
+    "ymcatwincities/openy": "8.x.2.x"
+  }
+}

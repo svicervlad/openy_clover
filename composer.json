@@ -8,5 +8,10 @@
   "require":{
     "drupal/core": "^8.7",
     "ymcatwincities/openy": "8.x.2.x"
+  },
+  "autoload": {
+    "psr-0" : {
+      "Svicervlad\\OpenyClover": "src"
+    }
   }
 }

@@ -13,5 +13,8 @@
     "psr-0" : {
       "Svicervlad\\OpenyClover": "src"
     }
+  },
+  "scripts": {
+    "post-install-cmd": "yarn install && grunt build"
   }
 }

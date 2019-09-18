@@ -50,7 +50,7 @@ add to composer.json your openy project in section "repositories":
     "type": "package",
     "package": {
         "name": "svicervlad/openy_clover",
-        "version": "2.6.10",
+        "version": "1.0",
         "type": "drupal-theme",
         "dist": {
             "url": "https://github.com/svicervlad/openy_clover/archive/composer_support.zip",
